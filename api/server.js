@@ -17,9 +17,7 @@ if (!fs.existsSync(uploadsDir)) {
   fs.mkdirSync(uploadsDir, { recursive: true });
 }
 
-module.exports = (req, res) => {
-  res.status(200).json({ message: "Hello from Node API!" });
-};
+
 
 // ─── Middleware ────────────────────────────────────────────────────────────────
 app.use(cors());
