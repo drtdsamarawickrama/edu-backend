@@ -79,11 +79,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 // ─── Error Middleware (keep after routes & static) ─────────────────────────────
 app.use(errorHandler);
 
-// ─── Start Server ─────────────────────────────────────────────────────────────
-// app.listen(PORT, () => {
-//   console.log(`🚀 Server running at http://localhost:${PORT}`);
-// });
-
+ 
 // export default function handler(req, res) {
 //   res.status(200).json({ message: "Hello from Vercel Node API!" });
 // }

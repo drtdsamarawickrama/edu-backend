@@ -4,10 +4,10 @@ const mysql = require('mysql2/promise');
 
 // Load environment variables with safe defaults
 const {
-  DB_HOST = 'localhost',
-  DB_USER = 'root',
-  DB_PASSWORD = '',
-  DB_NAME = 'edu_db',
+  DB_HOST = '184.168.115.236',
+  DB_USER = 'dearo_edu',
+  DB_PASSWORD = 'D@e#aro@#123',
+  DB_NAME = 'dearo_edu',
   DB_PORT = 3306, // ✅ default MySQL port
 } = process.env;
 
